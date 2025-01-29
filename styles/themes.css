@@ -1,0 +1,13 @@
+/* Light Theme */
+[data-theme="light"] {
+    --bg-primary: #ffffff;
+    --text-primary: #333333;
+    --accent: #e50914;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    --bg-primary: #141414;
+    --text-primary: #ffffff;
+    --accent: #e50914;
+}
