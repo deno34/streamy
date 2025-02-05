@@ -24,15 +24,17 @@ body {
 #pricing {
     text-align: center;
     padding: 50px 20px;
-    color: #000000;
+    background: var(--dark); /* Use the dark theme */
+    color: var(--light); /* Ensure text is white */
 }
 
+
 .pricing-box {
-    display: inline-block;
-    background: white;
+    background: #222; /* Dark background */
+    color: white; /* Ensure text is visible */
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); /* Softer shadow */
     max-width: 400px;
     margin-top: 20px;
 }
